@@ -5,6 +5,7 @@ const output = document.getElementById('output');
 // Adding the Event Listener
 convertBtn.addEventListener("click", ()=>{
   convertor(number.value);
+  number.value = "";
 });
 /*
   Table of Roman Numeral:
