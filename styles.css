@@ -1,0 +1,41 @@
+ *, ::before, ::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  background-color: rgb(220, 244, 245);
+}
+
+h1{
+  margin: 25px;
+  color: black;
+  opacity: 0.7;
+}
+
+h2{
+  margin: 40px;
+  font-size: 40px;
+}
+
+input{
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  width: 500px;
+}
+
+input::placeholder{
+  text-align: center;
+  font-size: medium;
+  padding: 2px;
+}
+
+button{
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  height: 40px;
+}
